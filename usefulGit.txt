@@ -1,0 +1,17 @@
+**********************************************************************************************************************************************************************************************
+*************If you ever run to a merge conflict because you accidentally worked on the same file with someone else at the same time before pull their changes*********************
+**********************************************************************************************************************************************************************************************
+
+(make sure you have a copy of the files you just edited)
+add (the file your merge conflict is about)
+git commit
+git push
+
+or try
+git reset --soft HEAD~1
+
+*******************************************************************************************
+*************If you want to add something to .gitignore really quick*********************
+********************************************************************************************
+
+echo "(things you want to ignore e.g.: *.bst)" >> .gitignore
