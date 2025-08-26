@@ -1,0 +1,3 @@
+###Seperate by ' ' when there are multiple ' ' in a column, commonly used to seperate species name with var. and sub.###
+str_split_fixed(dataset$colname, ' ', 2)[ ,1]
+str_split_fixed(dataset$colname, ' ', 2)[ ,2]
