@@ -15,3 +15,8 @@ git reset --soft HEAD~1
 ********************************************************************************************
 
 echo "(things you want to ignore e.g.: *.bst)" >> .gitignore
+
+************If you've already committed some changes you want to keep, but you have other files having merge conflicts, and you don't want to keep the changes you made, but replace with the updated version***********
+
+git restore nameofthefile
+git pull
